@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: hsl(204, 69%, 79%);
+}
+
+.pricing-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.pricing-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    transition: transform 0.3s;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.plan-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.plan-price {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.plan-price span {
+    font-size: 16px;
+    color: #888;
+}
+
+.plan-features {
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+
+.plan-features li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+/* Color Themes for each plan */
+.basic {
+    border-top: 5px solid #007bff;
+}
+
+.pro {
+    border-top: 5px solid #ff6f00;
+}
+
+.enterprise {
+    border-top: 5px solid #dc3545;
+}
